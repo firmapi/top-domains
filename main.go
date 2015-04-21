@@ -1,10 +1,10 @@
 package main
 
 import (
-  "./vendor/martini"
   "encoding/csv"
   "encoding/json"
   "fmt"
+  "github.com/go-martini/martini"
   "net/http"
   "os"
   "strconv"
