@@ -77,8 +77,6 @@ func domainPosition(domain string) (bool, int) {
 func main() {
   buildAlexList()
 
-  fmt.Println(len(alexa_list))
-
   m := martini.Classic()
   m.Get("/", func() (int, string) {
     response := &WorkingResponse{
